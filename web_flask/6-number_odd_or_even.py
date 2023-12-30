@@ -44,14 +44,14 @@ def number_text(n):
 
 @app.route('/number_template/<int:n>')
 def html_number(n):
-    """display html if n is an integer only"""
+    """ display html if n is an integer only """
     n = str(n)
     return render_template('5-number.html', n=n)
 
 
 @app.route('/number_odd_or_even/<int:n>')
 def odd_or_even(n):
-    """displays if number is odd or even"""
+    """ displays if number is odd or even """
     n = str(n)
     return render_template('6-number_odd_or_even.html', n=n)
 
