@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """ script to start a simple web app with 2 routes """
 
 from flask import Flask
