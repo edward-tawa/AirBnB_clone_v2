@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 """ script to start a simple web app with 2 routes """
 
 from flask import Flask
@@ -8,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/', strict_slashes=False)
 def hello():
-    """ returns Hello HBNB. """
+    """ returns Hello HBNB! """
     return 'Hello HBNB!'
 
 
